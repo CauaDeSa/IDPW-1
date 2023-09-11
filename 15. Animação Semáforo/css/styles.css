@@ -1,0 +1,137 @@
+body,
+html {
+    background-color: rgb(161, 161, 161);
+    height: 95%;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.container {
+    background-color: rgb(27, 27, 27);
+    width: fit-content;
+    align-items: center;
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+div {
+    border: 4px solid rgb(0, 0, 0);
+}
+
+.a,
+.b,
+.c {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    border-radius: 100%;
+    padding: 40px;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.a {
+    background-image:
+        radial-gradient(circle closest-side,
+            rgb(74, 196, 26),
+            #1a4101);
+
+    animation: lightone 9s infinite;
+}
+
+.b {
+    background-image:
+        radial-gradient(circle closest-side,
+            rgb(87, 87, 87),
+            #252525);
+    animation: lighttwo 9s infinite;
+}
+
+.c {
+    background-image:
+        radial-gradient(circle closest-side,
+            rgb(87, 87, 87),
+            #252525);
+    animation: lightthree 9s infinite;
+}
+
+@keyframes lightone {
+    33% {
+        background-image:
+            radial-gradient(circle closest-side,
+                rgb(74, 196, 26),
+                #1a4101);
+    }
+
+    66% {
+        background-image:
+            radial-gradient(circle closest-side,
+                rgb(87, 87, 87),
+                #252525);
+    }
+
+    100% {
+        background-image:
+            radial-gradient(circle closest-side,
+                rgb(87, 87, 87),
+                #252525);
+    }
+}
+
+@keyframes lighttwo {
+    33% {
+        background-image:
+            radial-gradient(circle closest-side,
+                rgb(87, 87, 87),
+                #252525);
+    }
+
+    66% {
+        background-image:
+            radial-gradient(circle closest-side,
+                rgb(253, 207, 3),
+                #615200);
+    }
+
+    100% {
+        background-image:
+            radial-gradient(circle closest-side,
+                rgb(87, 87, 87),
+                #252525);
+    }
+}
+
+@keyframes lightthree {
+    33%{
+        background-image:
+            radial-gradient(circle closest-side,
+                rgb(87, 87, 87),
+                #252525);
+    }
+
+    66% {
+        background-image:
+            radial-gradient(circle closest-side,
+                rgb(87, 87, 87),
+                #252525);
+    }
+
+    100% {
+
+        background-image:
+            radial-gradient(circle closest-side,
+                rgb(160, 6, 6),
+                #410202);
+    }
+}

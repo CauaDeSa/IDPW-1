@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 1</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <form action = “http://localhost:8080/pessoa” method = “post”>
+
+            <div class="nome">
+                <label for="username">Nome</label>
+                <input type="text" maxlength="30" id="username" placeholder="Digite seu nome" required>
+            </div>
+
+            <div class="endereco">
+                <label for="endereço">Endereço</label>
+                <input type="cep" maxlength="50" id="endereço" name="endereço" placeholder="Digite seu endereço" required>
+            </div>
+
+            <div class="telefone">
+                <label for="telefone">Telefone</label>
+                <input type="tel" maxlength="20" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX" required>
+            </div>
+
+            <div class="senha">
+                <label for="password">Senha</label>
+                <input type="password" maxlength="12" id="password" placeholder="Digite sua senha" required>
+            </div>
+
+            <div class="buttons">
+                <input type="reset">
+                <input type="submit">
+            </div>
+        </form>
+    </div>
+    <footer></footer>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 3</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body background="https://th.bing.com/th/id/R.112a9d178570e4ef4cc9e574befd93b6?rik=Cd9H7NS5%2b%2bTp4Q&pid=ImgRaw&r=0">
+    <div class="container">
+        <form action=“http://localhost:8080/login”>
+            <div>
+                <label for="name">Nome</label>
+                <input class="border" type="text" id="name" placeholder="Insira um nome" required>
+            </div>
+            <div>
+                <label for="password">Senha</label>
+                <input class="border" type="password" id="password" placeholder="Insira sua senha" maxlength="10" required>
+            </div>
+            <div>
+                <label class="file2" for="foto">Foto</label>
+                <input class="files" type="file" id="foto" accept="image/*" required>
+
+                <label class="file2" for="video">Vídeo</label>
+                <input class="files" type="file" id="video" accept="video/*">
+            </div>
+            <div class="checkbox">
+                <label class="interesses">Interesses:</label>
+
+                <label for="esporte">Esporte</label>
+                <input  type="checkbox" name="interesse" id="esporte" value="Esporte">
+                
+                <label for="politica">Política</label>
+                <input  type="checkbox" name="interesse" id="politica" value="Esporte">
+                
+                <label for="economia">Economia</label>
+                <input  type="checkbox" name="interesse" id="economia" value="Esporte">
+                </div>
+            <div class="email">
+                <label for="email">Deseja receber notícias pelo e-mail?</label>
+                <input type="radio" name="email" value="sim"/>Sim
+                <input type="radio" name="email" value="nao"/>Não
+            </div>
+            <div class="buttons">
+                <input class="border" type="reset">
+                <input class="border" type="submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

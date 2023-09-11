@@ -1,0 +1,39 @@
+font-face {
+    font-family: 'Calibri';
+    src: url('calibri.eot');
+}
+
+#blue{
+    color: blue;
+}
+
+#green{
+    color: green;
+}
+
+body{
+    font-family: 'Calibri';
+}
+
+section{
+    weight: 60%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    margin: 8px;
+}
+
+h1{
+    text-allign: center;
+    font-size: 40px;
+    margin: none;
+}
+
+li{
+    li
+}

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+*{
+    font-family: 'pangolin';
+    font-size: 20px;
+    margin: 3px;
+}
+
+body{
+    margin: 110px 10px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    color: rgb(252, 252, 252);
+    backdrop-filter: blur(30px);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 1px;
+    box-shadow: black 1px 1px 50px 1px;
+    border-radius: 20px;
+}
+
+form{
+    padding: 1px;
+    text-align: center;
+    margin: 30px 10px;
+}
+
+label{
+    align-items: center;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+input{
+    padding: 3px 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.file2{
+    display: block;
+}
+
+.files{
+    margin-left: 90px;
+}
+
+.checkbox{
+    display: flex ;
+    padding: 20px 1px;
+    margin-left: 90px;
+}
+
+.email{
+    
+    display: flex;
+    margin: 0 0 20px 90px;
+}
+
+.border{
+    box-shadow: 1px 1px 1px;
+    padding: 0 29px;
+}
+
+.border:hover{
+    background-color: rgba(44, 40, 40, 0.993);
+}
+
+input:focus-visible{
+    outline-color: rgb(0, 0, 0);
+    background-color: rgb(182, 180, 180);
+}
+
+input[type=reset], input[type=submit]{
+
+    cursor: pointer;
+}

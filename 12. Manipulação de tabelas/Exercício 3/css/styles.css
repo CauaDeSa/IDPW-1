@@ -1,0 +1,36 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 60%;
+    height: 30px;
+    text-align: center;
+    margin: auto;
+    font-size: large;
+    caption-side: top;
+    animation: DVD 10.0s infinite;
+
+}
+
+th, td{
+    border: 1px solid black;
+    
+}
+
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+@keyframes DVD {
+
+    0%{
+        background-position: 1cm;
+    }
+
+    100%{
+        background-position: 100cm;
+    }
+
+
+}

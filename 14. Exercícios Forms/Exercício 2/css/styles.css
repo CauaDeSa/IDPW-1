@@ -1,0 +1,59 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.726) ;
+}
+
+.container{
+    display: flex;
+    align-content: center;
+    width: 25%;
+    height: 20%;
+    margin: 15% auto;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    background-color: rgb(164, 206, 243);
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto auto;
+    padding: 20px 15px;
+
+}
+
+label{
+    margin: 10px auto;
+    display: flex;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+input{
+    margin: 9px 2px;
+    padding: 2px 1px;
+    border: none;
+    box-shadow: 1px 1px 1px;
+    border-radius: 5px;
+}
+
+input:hover{
+    background-color: whitesmoke;
+}
+
+input:focus-visible{
+    outline-color:  rgb(8, 7, 8);
+    background-color: whitesmoke;
+}
